@@ -1,0 +1,219 @@
+[
+  {
+    "a": "21",
+    "name": "Genuine Axe of Phractos",
+    "e": 4,
+    "g": "277151898",
+    "h": "3890476294",
+    "price": 629.31,
+    "k": "8847ff",
+    "image": "MzE4NzA=",
+    "l": 0,
+    "f": "18885350396",
+    "p": "4D7455",
+    "rarity": "Mythical",
+    "hero": "Axe",
+    "b2": "type",
+    "type": "Wearable"
+  },
+  {
+    "a": "22",
+    "name": "Autographed Dragonclaw Hook",
+    "e": 4,
+    "g": "230135028",
+    "h": "3950813657",
+    "price": 322.33,
+    "k": "e4ae39",
+    "image": "MTA0NTQ=",
+    "l": 0,
+    "f": "19076808256",
+    "a2": [
+      [
+        "tools/sign_autograph_ti7.0e1ba5f4d6238bd4d0149cc96f1adad55420ae6b.png",
+        "ffffff",
+        "ffffff",
+        "International 2018 Autograph by Oleksander 'XBOCT' Dashkevych",
+        "Autograph Rune TI - 2017"
+      ]
+    ],
+    "p": "ADE55C",
+    "rarity": "Immortal",
+    "hero": "Pudge",
+    "b2": "type",
+    "type": "Wearable"
+  },
+  {
+    "a": "23",
+    "name": "Inscribed Dragonclaw Hook",
+    "e": 4,
+    "g": "231581911",
+    "h": "3893207802",
+    "price": 295.74,
+    "k": "e4ae39",
+    "image": "MTA0NTQ=",
+    "l": 0,
+    "f": "18897176041",
+    "a2": [
+      [
+        "sockets/gem_stat.30d7935c1f0a1b9e8e28c691c2bd28f7d5f471bc.png",
+        "ffffff",
+        "ffffff",
+        "First Bloods: 4",
+        "Inscribed Gem"
+      ]
+    ],
+    "p": "CF6A32",
+    "rarity": "Immortal",
+    "hero": "Pudge",
+    "b2": "type",
+    "type": "Wearable"
+  },
+  {
+    "a": "22",
+    "name": "Dragonclaw Hook",
+    "e": 4,
+    "g": "231580917",
+    "h": "3925071290",
+    "price": 283.74,
+    "k": "e4ae39",
+    "image": "MTA0NTQ=",
+    "l": 0,
+    "f": "18958247724",
+    "p": "D2D2D2",
+    "rarity": "Immortal",
+    "hero": "Pudge",
+    "b2": "type",
+    "type": "Wearable"
+  },
+  {
+    "a": "22",
+    "name": "Dragonclaw Hook",
+    "e": 4,
+    "g": "231580917",
+    "h": "3958252026",
+    "price": 283.74,
+    "k": "e4ae39",
+    "image": "MTA0NTQ=",
+    "l": 0,
+    "f": "19113282312",
+    "r": 88814,
+    "a2": [
+      ["", "ffffff", "ffffff", "Empty Socket", "General"],
+      ["", "ffffff", "ffffff", "Empty Socket", "General"]
+    ],
+    "p": "D2D2D2",
+    "rarity": "Immortal",
+    "hero": "Pudge",
+    "b2": "type",
+    "type": "Wearable"
+  },
+  {
+    "a": "23",
+    "name": "Genuine Guard of the Red Mist",
+    "e": 4,
+    "g": "277151899",
+    "h": "3942514003",
+    "price": 277.43,
+    "k": "8847ff",
+    "image": "NDc0OTM=",
+    "l": 0,
+    "f": "19055632473",
+    "p": "4D7455",
+    "rarity": "Mythical",
+    "hero": "Axe",
+    "b2": "Misc",
+    "type": "Wearable"
+  },
+  {
+    "a": "22",
+    "name": "Unusual Baby Roshan",
+    "e": 4,
+    "g": "230130185",
+    "h": "3930437690",
+    "price": 121.66,
+    "k": "d32ce6",
+    "image": "NTk1OQ==",
+    "l": 0,
+    "f": "19000724320",
+    "a2": [
+      [
+        "sockets/gem_effect.0de3b7d69045bfc968a02d31b76c3577b794939a.png",
+        "ffffff",
+        "ffffff",
+        "Frostivus Frost",
+        "Ethereal Gem"
+      ],
+      [
+        "sockets/gem_color.991870a920f3defab3c5a1b4c77fb747e8dfca1d.png",
+        "94cad0",
+        "94cad0",
+        "Placid Blue",
+        "Prismatic Gem"
+      ]
+    ],
+    "p": "8650AC",
+    "rarity": "Legendary",
+    "b2": "Courier",
+    "type": "Courier"
+  },
+  {
+    "a": "8",
+    "name": "Crimson Progenitor's Bane",
+    "e": 4,
+    "g": "3482073486",
+    "h": "3361756675",
+    "price": 113.55,
+    "k": "e4ae39",
+    "image": "MzkyMTE=",
+    "l": 0,
+    "f": "18414308805",
+    "a2": [["", "ffffff", "ffffff", "Empty Socket", "General"]],
+    "p": "D2D2D2",
+    "rarity": "Immortal",
+    "hero": "Mars",
+    "b2": "type",
+    "type": "Wearable"
+  },
+  {
+    "a": "17",
+    "name": "Crimson Gates of Nothl",
+    "e": 4,
+    "g": "3482078211",
+    "h": "3923089970",
+    "price": 111.78,
+    "k": "e4ae39",
+    "image": "MzkzMDE=",
+    "l": 0,
+    "f": "18952564766",
+    "a2": [["", "ffffff", "ffffff", "Empty Socket", "General"]],
+    "p": "D2D2D2",
+    "rarity": "Immortal",
+    "hero": "Dazzle",
+    "b2": "Back",
+    "type": "Wearable"
+  },
+  {
+    "a": "21",
+    "name": "Prismatic: Plushy Shag",
+    "e": 4,
+    "g": "230158277",
+    "h": "3883353355",
+    "price": 108.99,
+    "k": "8847ff",
+    "image": "MTg2MTk=",
+    "l": 0,
+    "f": "18829740696",
+    "a2": [
+      [
+        "sockets/gem_color.991870a920f3defab3c5a1b4c77fb747e8dfca1d.png",
+        "ffc1dc",
+        "ffc1dc",
+        "Plushy Shag",
+        "Prismatic Gem"
+      ]
+    ],
+    "p": "D2D2D2",
+    "rarity": "Mythical",
+    "type": "Gem / Rune"
+  }
+]
