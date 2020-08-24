@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
 import { createStore, StateMachineProvider } from 'little-state-machine'
 import { Global } from '@emotion/core'
 import { css } from 'twin.macro'
@@ -41,11 +40,9 @@ ReactDOM.render(
         }
       `}
     />
-    <BrowserRouter>
-      <StateMachineProvider>
-        <App />
-      </StateMachineProvider>
-    </BrowserRouter>
+    <StateMachineProvider>
+      <App />
+    </StateMachineProvider>
   </React.Fragment>,
   document.getElementById('root')
 )

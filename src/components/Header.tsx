@@ -2,15 +2,14 @@ import React from 'react'
 import tw from 'twin.macro'
 
 import { Brand } from 'components/Brand'
-import { NavLink as BaseNavLink } from 'components/NavLink'
 
-const Container = tw.header`w-screen bg-dark-800`
+const Container = tw.header`w-full bg-dark-800`
 const Content = tw.div`w-full flex items-center h-20 px-4`
 
 const Nav = tw.nav`flex items-center`
-const NavLink = tw(BaseNavLink)`hover:text-primary-500 hidden md:block`
+const NavLink = tw.a`text-primary-500 hover:text-primary-600 hidden md:block uppercase font-bold ml-2`
 
-const LoginButton = tw.a`px-5 py-2 focus:(outline-none) bg-primary-600 hover:bg-primary-500 text-light-100 ml-auto font-medium uppercase flex items-center`
+export const LoginButton = tw.a`px-5 py-2 focus:(outline-none) bg-primary-600 hover:bg-primary-500 text-light-100 ml-auto font-medium uppercase flex items-center`
 
 const SteamIcon = () => (
   <svg
@@ -29,14 +28,9 @@ export function Header() {
       <Content>
         <Brand />
         <Nav>
-          <NavLink activeStyle={tw`text-primary-500`} exact to="/">
-            trade
-          </NavLink>
-          <NavLink activeStyle={tw`text-primary-500`} to="/faq">
-            faq
-          </NavLink>
+          <NavLink href="/">trade</NavLink>
         </Nav>
-        <LoginButton href="/openid/login?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=checkid_setup&openid.return_to=https%3A%2F%2Fhttps://detailscsgo.net%2F%3Flogin&openid.realm=https%3A%2F%2Fhttps://detailscsgo.net&openid.ns.sreg=http%3A%2F%2Fopenid.net%2Fextensions%2Fsreg%2F1.1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select">
+        <LoginButton href="/" className="goAuth">
           <SteamIcon /> <span tw="hidden md:block">Sign in through Steam</span>
         </LoginButton>
       </Content>

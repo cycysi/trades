@@ -139,7 +139,7 @@ export function Item(props: ItemProps) {
           )}
           <img
             tw="object-center w-full lg:w-7/12 mt-4 mx-auto"
-            src={`https:/tradeskinsfast.com/steamItems/${props.image}`}
+            src={`https://tradeskinsfast.com/steamItems/${props.image}`}
             alt={`A ${props.name} with ${props.image}`}
           />
           <span tw="font-bold  text-light-100 mt-auto text-center block pb-2">

@@ -35,7 +35,7 @@ export function Footer() {
   return (
     <footer tw="w-full bg-dark-800 flex items-center flex-wrap p-4">
       <div tw="w-full text-light-100 text-center order-last pt-4 lg:(order-first w-1/3 pt-0 text-left)">
-        &copy; {new Date().getFullYear()}{' '}
+        &copy;2015 &mdash; {new Date().getFullYear()}{' '}
         <span tw="text-primary-500 pl-2 font-bold">
           {process.env.REACT_APP_SITE_NAME}
         </span>

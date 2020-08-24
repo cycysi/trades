@@ -38,10 +38,7 @@ export function ItemShowcase(props: ItemShowcaseProps) {
         </ItemsContainer>
       ) : (
         <div tw="w-full h-full flex items-center justify-center">
-          <a
-            href="/openid/login?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=checkid_setup&openid.return_to=https%3A%2F%2Fhttps://detailscsgo.net%2F%3Flogin&openid.realm=https%3A%2F%2Fhttps://detailscsgo.net&openid.ns.sreg=http%3A%2F%2Fopenid.net%2Fextensions%2Fsreg%2F1.1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select"
-            tw="flex flex-col"
-          >
+          <a className="goAuth" href="/" tw="flex flex-col">
             <h1 tw="font-bold text-2xl text-dark-800">
               Sign in to start trading
             </h1>
