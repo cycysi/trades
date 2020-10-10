@@ -13,22 +13,22 @@ const payments = [
   {
     name: 'Paypal',
     link: 'https://www.paypal.com/',
-    image: 'https://cs.money/images/logo_icons/paypal_footer.svg',
+    image: 'https://old.cs.money/images/logo_icons/paypal_footer.svg',
   },
   {
     name: 'MasterCard',
     link: 'https://www.mastercard.us/en-us.html',
-    image: 'https://cs.money/images/logo_icons/mastercard.svg',
+    image: 'https://old.cs.money/images/logo_icons/mastercard.svg',
   },
   {
     name: 'Visa',
     link: 'https://usa.visa.com/',
-    image: 'https://cs.money/images/logo_icons/visa.svg',
+    image: 'https://old.cs.money/images/logo_icons/visa.svg',
   },
   {
     name: 'G2A PAY',
     link: 'https://pay.g2a.com/',
-    image: 'https://cs.money/images/logo_icons/g2footer.svg',
+    image: 'https://old.cs.money/images/logo_icons/g2footer.svg',
   },
 ]
 export function Footer() {
