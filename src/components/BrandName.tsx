@@ -6,7 +6,7 @@ const BrandTextHighlight = tw.span`text-primary-500`
 export function BrandName() {
   return (
     <>
-      SKINS<BrandTextHighlight>TRADE</BrandTextHighlight>CHECK
+      ITEMS<BrandTextHighlight>2</BrandTextHighlight>VEND
     </>
   )
 }
