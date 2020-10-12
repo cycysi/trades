@@ -36,7 +36,7 @@ export default function Home() {
               `,
             ]}
             tw="absolute inset-0"
-            src="https://tradeit.gg/static/img/slashes_tf.jpg"
+            src={process.env.PUBLIC_URL + '/images/banner.jpg'}
             alt="Hero banner"
           />
           <div tw="bg-light-500 bg-opacity-75 w-full h-full z-10 absolute inset-0 flex flex-col">

@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cycysilos.github.io/skinstrades",
+  "homepage": "https://cycysilos.github.io/trades",
   "dependencies": {
     "-": "0.0.1",
     "@craco/craco": "^5.6.4",
